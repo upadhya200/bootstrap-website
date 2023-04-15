@@ -1,0 +1,193 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+p{
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+}
+/* h2{
+    font-size: 3rem;
+    line-height: 1.5;
+} */
+ /* h3{
+    font-size: 1.5rem;
+     line-height: 2; 
+ } */
+
+/* Heading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* #title{
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+} */
+/* container */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+/* sections */
+
+.coloured-section{
+background-color: #ff4c68;
+color: #fff;
+}
+.white-section{
+background-color: #fff;
+}
+/* Navigation Bar */
+.navbar{
+    /*(on bootstrap 4.6-"tinderdog") padding-bottom: 4.5rem; -also can be used; Instead of using padding-bottom i use padding and mention size of all 4 sides ,to align the "nav-brand[tindog] with h1 text below,because by default browser is adding some padding into our elements so by putting those values as 0 i fixed it*/
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu','sans-serif';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+/* Download button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* title-section */
+
+#title .container-fluid{
+    padding: 4% 15% 3%;
+    text-align: left;
+}
+/* .title_container{
+    padding: 4% 15% 3%;
+} */
+/* tittle image */
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    margin: 0 0 0 5%;
+    position: absolute;
+}
+
+/* Features */
+
+#features{
+    /* padding: 7% 15%; */
+    /* background-color: #fff; */
+    position: relative;
+    z-index: 1;
+}
+.features-text{
+    font-size: 1.5rem;
+}
+.feature-box{
+    padding: 4.5%;
+}
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testimonials */
+
+#testimonials{
+background-color: #ef8172;
+/* color: white; */
+}
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 5%;
+}
+/* .carousel-item{
+    padding: 7% 15%;
+} */
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-header-text{
+    font-size: 1.5rem;
+}
+.pricing-button{
+    width: 100%;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
+
+/* CSS-Media property */
+
+@media(max-width: 1010px){
+    #title{
+        text-align: center;
+    }
+.title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+}
+}
+
+/* Call to Action */
+
+/* #cta{
+    background-color: #ff4c68;
+     padding: 7% 15%;
+    color: #fff;
+    
+} */
+.cta-heading{
+    /* margin: 0 0 50px; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.cta-button{
+    /* margin: 20px;
+    border-radius: 5px; */
+    margin: 5% 3% 5% 0;
+}
+/* footer */
+
+#footer{
+    /* padding: 7% 15%; */
+    line-height: 3;
+}
+.footer-icon{
+    margin: 20px 10px;
+}
